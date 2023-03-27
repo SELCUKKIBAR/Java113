@@ -24,7 +24,7 @@ public class Rope {
     public static void main(String[] args) {
 
 
-
+        System.out.println("==============================");
         Rope rope=new Rope();
         rope.play();
         Rope rope2 = null;
