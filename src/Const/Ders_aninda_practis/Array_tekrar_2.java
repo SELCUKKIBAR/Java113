@@ -15,18 +15,18 @@ public class Array_tekrar_2 {
         //}
         //System.out.println(Arrays.toString(arr));
 
-        //arr = elemetleriArtirma(arr,9);
-        //System.out.println(Arrays.toString(arr));
+        arr = elemetleriArtirma(arr,2);
+        System.out.println(Arrays.toString(arr));
 
         System.out.println(elementVarmi(arr, 5));
 
 
     }
-    public static int[] elemetleriArtirma(int []arr1,int artis){
-        for (int i = 0; i < arr1.length; i++) {
-            arr1[i]+=artis;
+    public static int[] elemetleriArtirma(int []arr,int artis){
+        for (int i = 0; i < arr.length; i++) {
+            arr[i]+=artis;
         }
-        return arr1;
+        return arr;
     }
 
     public static int elementVarmi(int[]arr1, int aranan){

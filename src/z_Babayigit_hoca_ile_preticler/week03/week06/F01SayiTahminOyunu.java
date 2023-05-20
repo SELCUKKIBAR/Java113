@@ -1,4 +1,4 @@
-package z_Babayigit_hoca_ile_preticler.week03.week06;
+package week06;
 
 import java.util.Scanner;
 

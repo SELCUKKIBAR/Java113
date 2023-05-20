@@ -24,5 +24,18 @@ public class C01_ArtikYil {
         }else{
             System.out.println("Artik yil degil");
         }
+
     }
+
+
+
+
+
+
+
+
+
 }
+
+
+

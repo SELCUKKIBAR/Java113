@@ -3,7 +3,7 @@ package day36_exceptions;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-public class  C04_CheckedExceptions {
+public class C04_CheckedExceptions {
 
     public static void main(String[] args) throws FileNotFoundException {
 
@@ -38,11 +38,8 @@ public class  C04_CheckedExceptions {
          */
 
         String dosyaYolu = "src/day36_exceptions/text.txt";
-        String dosyaYolu_1 = "src/day36_exceptions/text1.txt";
 
         FileInputStream fis = new FileInputStream(dosyaYolu);
-        FileInputStream fis1 = new FileInputStream(dosyaYolu_1);
-
 
 
     }

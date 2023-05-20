@@ -7,8 +7,6 @@ public class C07_subList {
 
     public static void main(String[] args) {
 
-
-
         List<Integer> sayilar = new ArrayList<>();
 
         sayilar.add(3);

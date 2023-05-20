@@ -1,5 +1,7 @@
 package day33_pollymorphism;
 
+import java.util.List;
+
 public class BChild extends AParent{
 
     @Override
@@ -13,7 +15,7 @@ public class BChild extends AParent{
 
     void method2(){
         /*
-         bir method override edildiginde
+            bir method override edildiginde
             child class'da @Override notasyonu KULLANILABILIR
 
             kullanmak veya kullanmamak arasinda
@@ -27,10 +29,8 @@ public class BChild extends AParent{
             notasyon yoksa
             parent class'daki overriden method silinirse
             bir uyari verilmez, CTE olusmaz
+
          */
-
-
-
     }
 
       Double method3(){

@@ -24,7 +24,7 @@ public class C01_WhileLoop_RakamlarToplamiBulma {
 
         }
 
-        //System.out.println("Girilen " + girilenSayi +"'nin rakamlar toplami : " + rakamlarToplami);
+        System.out.println("Girilen " + girilenSayi +"'nin rakamlar toplami : " + rakamlarToplami);
 
         System.out.println(C02_RakamlarToplaminiBul.rakamlarToplaminiBul(girilenSayi));
 

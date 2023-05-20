@@ -10,7 +10,6 @@ public class AParent {
 
     }
 
-
      Object method3(){
 
         return null;
